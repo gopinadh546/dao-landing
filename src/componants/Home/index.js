@@ -72,11 +72,11 @@ const renderCards = () => {
         <div className="home-best-company-card">
           <div className="home-best-company-card-text">
             <h1 className="home-best-company-card-heading">
-              Let us Help you Find the best companies that suites you..
+            We helps brands and agencies manage top-performing influencer programs...
             </h1>
             <Link to="/">
               <button type="button" className="home-page-card-button">
-                Invest
+                Explore
               </button>
             </Link>
           </div>
