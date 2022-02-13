@@ -8,7 +8,7 @@ function Header() {
     <div>
       <nav className="navbar navbar-expand-lg  sticky-top navbar-light bg-light pb-0">
         <div className="container">
-          <a className="navbar-brand h1 pt-1 px-4" href="#">DAO</a>
+          <a className="navbar-brand h1 pt-1 px-4" href="/">DAO</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
