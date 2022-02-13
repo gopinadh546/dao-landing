@@ -1,0 +1,26 @@
+.nav-under {
+	position: relative;
+	display: block;
+	text-decoration: none;
+	font-family: "Lato";
+	font-size: 1rem;
+	transition: 0.5s;
+		&::after {
+			position: absolute;
+			content: "";
+			width: 100%;
+			height: 3px;
+			top: 100%;
+			left: 0;
+			background: #ff7000;
+			transition: transform 0.5s;
+			transform: scaleX(0);
+			transform-origin: right;
+		}
+		&:hover {
+			&::after {
+			transform: scaleX(1);
+			transform-origin: left;
+			}
+		}
+}
