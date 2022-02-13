@@ -10,6 +10,7 @@ const FooterSupport = () => {
         <div
           className="designwhite bg-light"
           style={{
+            backgroundColor: "#EDF6FF",
             height: "12rem",
             borderRadius: "0 0 0 12rem",
           }}
